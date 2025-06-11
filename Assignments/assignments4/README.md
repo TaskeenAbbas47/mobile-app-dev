@@ -58,15 +58,3 @@ Uses "React Navigation" to switch between:
 🧭 React Navigation
 
 ---
-🔁 App Structure Overview
-
-App.js
-├── ApiProvider (React Context)
-│   ├── fetchJokes (GET)
-│   ├── addJoke (simulated POST)
-│   └── updateJoke (simulated PUT)
-│
-├── NavigationContainer (React Navigation)
-│   ├── HomeScreen        → Show fetched jokes
-│   ├── JokeFormScreen    → Submit/update a joke
-│   └── SensorScreen      → Show Accelerometer data
